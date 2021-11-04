@@ -49,7 +49,8 @@
         <artifactId>maven-enforcer-plugin</artifactId>
         <version>3.0.0-M3</version>
         <configuration>
-          <useSystemClassLoader>false</useSystemClassLoader>
+          <source>1.8</source>
+          <target>1.8</target>
         </configuration>
         <executions>
           <execution>
